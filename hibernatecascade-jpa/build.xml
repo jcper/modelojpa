@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="hibernatecascade-jpa" basedir=".">
+	<target name="copymetafiles">
+		<copy todir="build/META-INF">
+			<fileset dir="src/main">
+				<patternset refid="meta.files"></patternset>
+			</fileset>
+		</copy>
+	</target>
+</project>
